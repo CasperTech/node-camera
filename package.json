@@ -1,0 +1,24 @@
+{
+  "name": "@augmentality/node-camera",
+  "version": "1.0.0",
+  "description": "Basic V4L2 streaming camera interface",
+  "main": "index.js",
+  "scripts": {
+    "configure": "ncmake configure",
+    "build": "ncmake build",
+    "build-ts": "tsc",
+    "install": "ncmake configure && ncmake build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.13.1",
+    "node-cmake": "^2.5.1",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "typescript": "^3.3.3333"
+  }
+}

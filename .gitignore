@@ -1,0 +1,8 @@
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
+/node_modules
+/cmake-build-debug
+/cmake-build-debug-pi
+/cmake-build-release
+build/

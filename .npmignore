@@ -1,0 +1,10 @@
+tsconfig.json
+tslint.json
+.travis.yml
+ts/
+cmake-build-debug/
+cmake-build-debug-pi/
+build/
+.npmignore
+.gitignore
+.idea
