@@ -1,6 +1,6 @@
 {
   "name": "@augmentality/node-camera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic V4L2 streaming camera interface",
   "main": "index.js",
   "scripts": {
