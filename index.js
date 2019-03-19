@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const cmake = require("node-cmake");
+const cmake = require("@caspertech/node-cmake");
 const Subject_1 = require("rxjs/internal/Subject");
-const cam = cmake('node_camera');
+const cam = cmake('node_camera', false, __dirname);
 class Camera {
     constructor() {
         this.onFrame = new Subject_1.Subject();

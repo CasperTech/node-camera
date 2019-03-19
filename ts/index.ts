@@ -1,6 +1,6 @@
-import * as cmake from 'node-cmake'
+import * as cmake from '@caspertech/node-cmake'
 import {Subject} from 'rxjs/internal/Subject';
-const cam = cmake('node_camera');
+const cam = cmake('node_camera', false, __dirname);
 
 export class Camera
 {
